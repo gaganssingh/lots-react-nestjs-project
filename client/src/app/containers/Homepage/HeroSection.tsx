@@ -6,7 +6,7 @@ import { Button } from "../../components/Button";
 import { SCREEN_SIZES } from "../../components/responsive";
 
 const HeroContainer = styled.div`
-  min-height: 400px;
+  min-height: 300px;
   margin-top: 6em;
   ${tw`
     w-full

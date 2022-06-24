@@ -90,7 +90,7 @@ const DateCalendar = styled(Calendar)`
   position: fixed;
   max-width: none;
   user-select: none;
-  top: 50%;
+  top: 84%;
   left: 50%;
   transform: translate(-50%, -50%);
 
