@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import tw from "twin.macro";
+import { BookingCard } from "../../components/BookingCard";
 import { Navbar } from "../../components/Navbar";
 import { HeroSection } from "./HeroSection";
 
@@ -19,6 +20,7 @@ export const Homepage = () => {
     <PageContainer>
       <Navbar />
       <HeroSection />
+      <BookingCard />
     </PageContainer>
   );
 };
