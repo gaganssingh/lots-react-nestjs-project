@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 import { BookingCard } from "../../components/BookingCard";
+import { Marginer } from "../../components/Marginer";
 import { Navbar } from "../../components/Navbar";
 import { HeroSection } from "./HeroSection";
 
@@ -20,6 +21,7 @@ export const Homepage = () => {
     <PageContainer>
       <Navbar />
       <HeroSection />
+      <Marginer direction="vertical" margin="1.5em" />
       <BookingCard />
     </PageContainer>
   );
