@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import tw from "twin.macro";
 import { Navbar } from "../../components/Navbar";
+import { HeroSection } from "./HeroSection";
 
 const PageContainer = styled.div`
   ${tw`
@@ -17,6 +18,7 @@ export const Homepage = () => {
   return (
     <PageContainer>
       <Navbar />
+      <HeroSection />
     </PageContainer>
   );
 };
